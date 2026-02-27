@@ -15,14 +15,6 @@ This project provides tools to:
 - Visualize the results on Robeson diagrams colored by the enthalpic contribution.
 - Perform multivariate statistical analysis (PCA, hierarchical clustering, correlation mapping) to identify structure–property relationships across polymer families.
 
-## Methodology
-
-The diffusion selectivity of gas *x* over gas *y* is expressed as:
-
-$$\frac{D_x}{D_y} = \frac{d_x^2}{d_y^2} \cdot \exp\!\left(\frac{\Delta S^*_{d(x,y)}}{R}\right) \cdot \exp\!\left(\frac{-\Delta E^*_{d(x,y)}}{RT}\right)$$
-
-where the first two terms represent the **entropic selectivity** and the last term the **energetic selectivity**. Effective gas diameters are taken from Teplyakov and Meares (1990). Activation energies are obtained from linear regression of ln(*D*) vs 1/*T* using temperature-dependent single-gas permeation data.
-
 ## Key Dependencies
 
 ```
